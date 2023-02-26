@@ -9,7 +9,9 @@ import ReactDOM from "react-dom/client";
 /*   <StateApp /> */
 /*   <RouterApp /> */
 /* </React.StrictMode> */
-import EffectApp from "./useEffect/EffectApp";
+/* import EffectApp from "./useEffect/EffectApp"; */
+/* import ModalApp from "./modal/one/ModalApp"; */
+import ModalApp2 from "./modal/two/ModalApp2";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<EffectApp />);
+root.render(<ModalApp2 />);
